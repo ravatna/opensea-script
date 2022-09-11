@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "@chainsafe/dappeteer": "^2.2.0",
+    "csv-parse": "^5.3.0",
     "dappeteer": "^1.0.0",
     "esbuild": "^0.13.10",
     "esbuild-register": "^3.0.0",
@@ -12,5 +13,12 @@
   },
   "scripts": {
     "es": "node -r esbuild-register"
+  },
+  "repository": "https://github.com/yasupada/opensea-script.git",
+  "author": "Rewat Boonsit <ravatna@gmail.com>",
+  "devDependencies": {
+    "@types/node": "^18.7.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
   }
 }
